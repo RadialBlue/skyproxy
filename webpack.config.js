@@ -59,8 +59,9 @@ const frontend = {
     https: true,
 
     proxy: [{
-      context: ['/'],
+      context: ['/api'],
       target: 'http://localhost:6400',
+      pathRewrite: { '^/api' : '' }
     }],
 
     compress: true,

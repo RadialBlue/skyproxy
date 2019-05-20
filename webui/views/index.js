@@ -1,1 +1,7 @@
-export { default as Home } from './Home'
+export { default as Telemetry } from './Telemetry'
+export { default as Control } from './Control'
+export { default as Navigate } from './Navigate'
+export { default as Modules } from './Modules'
+export { default as ModuleInstall } from './ModuleInstall'
+export { default as ModuleInspect } from './ModuleInspect'
+export { default as Settings } from './Settings'

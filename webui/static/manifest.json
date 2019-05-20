@@ -1,0 +1,8 @@
+{
+  "name": "Sky Proxy",
+  "short_name": "Sky Proxy",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#00bcd4",
+  "theme_color": "#7890cc"
+}
