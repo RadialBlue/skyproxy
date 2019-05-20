@@ -59,7 +59,7 @@ const frontend = {
     https: true,
 
     proxy: [{
-      context: ['/api/v1/'],
+      context: ['/'],
       target: 'http://localhost:6400',
     }],
 
